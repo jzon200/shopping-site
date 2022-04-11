@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+#mainNav,
+#mainContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#brandLogo h1 {
+  font-family: "Perpetua Titling MT";
+  font-size: 39px;
+  font-weight: 300;
+  margin: 0 0.3em;
+}
+
+#navs a {
+  font-family: "Rubik";
+  font-size: 30px;
+  margin: 0 1em;
+}
+
+i {
+  font-size: 24px;
+}
+
+main {
+  margin-top: 7.4rem;
+  font-family: "Montserrat";
+}
+
+#heading {
+  margin-top: 5rem;
+}
+
+#heading h1 {
+  font-family: "Playfair Display";
+  font-size: 52px;
+}
+
+#heading p {
+  font-size: 22px;
+}
+
+#btnShopping {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25em;
+  font-size: 34px;
+  font-family: "Montserrat";
+  font-weight: medium;
+  background-color: black;
+}
+
+#btnShopping i {
+  margin-top: 4px;
+  font-size: 35px;
+}
+
+#totalProducts {
+  width: 337px;
+  height: 297px;
+  text-align: center;
+  padding: 2em;
+  margin-top: 1em;
+  border-radius: 45px;
+  background: linear-gradient(0.45turn, #eb737e 25%, #e34458, #e34559, #cb3d4e);
+  color: white;
+}
+
+#totalProducts h2 {
+  margin-top: 8px;
+  font-size: 86px;
+  font-weight: bold;
+}
+
+#totalProducts p {
+  font-size: 26px;
+}
+
+#offers {
+  margin-top: 64px;
+  font-family: "Rubik";
+}
+
+#offers h2 {
+  font-size: 45px;
+  font-weight: medium;
+}
+
+#offers h1 {
+  font-weight: bold;
+  font-size: 80px;
+  color: #cbaf23;
+}
+
+#roundedShoppingBagIc {
+  border: 16px solid #9dbfe1;
+  border-radius: 50%;
+}
+
+#signupOffers {
+  display: flex;
+  justify-content: space-between;
+  width: 294px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 26px;
+  padding: 1em;
+  background-color: #505460;
+  color: white;
+}
+
+#productsLabel {
+  margin-top: 10rem;
+}
+
+#productsLabel h3 {
+  font-size: 26px;
+}
+
+.product-item {
+  position: relative;
+}
+
+.product-item img {
+  display: inline-block;
+}
+
+#imageBackdrop {
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+  padding: 0.5em 1.5em;
+  background-color: rgba(10, 10, 10, 0.5);
+  color: white;
+  position: bottom;
+}
+
+/* #productRow {
+  overflow-x: scroll;
+} */
+
+/* item-details */
+#gridLayout {
+  margin-top: 10rem;
+}
+
+#productDetails {
+  font-size: 20px;
+}
+
+#btnGroupAdd {
+  margin-top: 3.5rem;
+}
+#btnGroupAdd button {
+  width: 288px;
+  height: 84px;
+  font-size: 26px;
+  font-weight: medium;
+}
+
+#sizeSelection {
+  border: 2px solid #757575;
+  color: black;
+  font-weight: 600;
+}
+
+#sizeSelection {
+  border: 2px solid #757575;
+  color: black;
+  font-weight: 600;
+}
+
+#socialMediaLinks {
+  margin-top: 4rem;
+}
+
+#socialMediaLinks i {
+  margin: 1.25rem;
+  font-size: 2.5rem;
+  color: black;
+}
+
+#faqs {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+
+#faqs a {
+  text-decoration: none;
+  font-style: italic;
+  color: #2798a1;
+}
+
+.product-item {
+  cursor: pointer;
+}
