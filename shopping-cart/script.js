@@ -340,6 +340,6 @@ for (const product of DUMMY_PRODUCTS) {
   productItem.addEventListener("click", () => {
     product.id = `p${currentIndex}`;
     console.log(product);
-    location.href = `./item-details`;
+    location.href = `./item-details.html`;
   });
 }
